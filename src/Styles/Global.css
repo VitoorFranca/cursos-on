@@ -1,0 +1,19 @@
+:root{
+  --yellow-bg-color: #ffc400;
+  --yellow-text-color: #ffc400;
+  --black-text-color-button: #00000088;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.bg-yellow{
+  background-color: var(--yellow-bg-color);
+}
+.text-yellow{
+  color: var(--yellow-bg-color);
+}

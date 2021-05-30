@@ -1,0 +1,10 @@
+.header-section-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 169px;
+  margin: 10px 0;
+}

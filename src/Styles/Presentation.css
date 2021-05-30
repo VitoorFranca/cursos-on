@@ -1,0 +1,44 @@
+:root{
+  --yellow-text-color: #ffc400;
+  --white-text-color: #ffffff;
+  --margin-text: 40px;
+}
+
+.presentation{
+  text-align: center;
+  padding: 20px;
+  color: var(--white-text-color);
+}
+
+.presentation h1, .presentation p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.presentation-first-title{
+  font-size: 48px;
+  margin: var(--margin-text) 0;
+}
+
+.presentation-second-title{
+  font-size: 36px;
+  margin: var(--margin-text) 0;
+}
+
+.xvas{
+  font-weight: 700;
+  font-size: 16px;
+  margin: var(--margin-text) 0;
+}
+
+.presentation div{
+  margin: var(--margin-text) 0;
+}
+
+.presentation div p:first-child{
+  font-weight: 700;
+  font-size: 14px;
+  margin: calc(var(--margin-text) - 30px) 0;
+}
+.presentation div p:last-child{
+  font-size: 14px;
+}
